@@ -1,0 +1,50 @@
+.inventory {
+  background: white;
+  padding-top: 60px;
+}
+.inventory__content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 2fr));
+  gap: 20px;
+}
+@media (max-width: 1155px) {
+  .inventory__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 2fr));
+    gap: 25px;
+  }
+}
+@media (max-width: 970px) {
+  .inventory__content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    gap: 10px;
+    place-items: center;
+  }
+}
+.inventory__content select {
+  width: 265px;
+  height: 64px;
+  font-family: "Mulish";
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width: 475px) {
+  .inventory__content select {
+    width: 100%;
+  }
+}
+.inventory__content-btn {
+  width: 128px;
+  height: 58px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 400;
+  border-radius: 8px;
+  border: none;
+  background: #FA3C45;
+}/*# sourceMappingURL=inventory.css.map */

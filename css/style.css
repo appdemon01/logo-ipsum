@@ -1,0 +1,59 @@
+@import url(./header/navigation/navigation.css);
+@import url(./header/modelsv/modelsv.css);
+@import url(./main/brand/brand.css);
+@import url(./main/our/our.css);
+@import url(./main/experience/experience.css);
+@import url(./main/downlod/downlod.css);
+@import url(./main/subscribe/subscribe.css);
+@import url(./footer/footer.css);
+@import url(./header/explore/explore.css);
+@import url(./main/inventory/inventory.css);
+@import url(./main/bmw/bmw.css);
+@import url(./main/s/s.css);
+@import url(./main/play/play.css);
+@import url(./main/colletion/collection.css);
+@import url(./fonts.css);
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Mulish';
+    background: #FFFFFF
+}
+
+.btn{
+    font-family: 'Mulish';
+    width: 120px;
+    height: 35px;
+    font-weight: 700px;
+    font-size: 15px;
+    line-height: 19px;
+    align-items: center;
+    border-radius: 8px;
+    background: #FA3C45;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+

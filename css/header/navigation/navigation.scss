@@ -1,0 +1,54 @@
+header{
+    background: #C5010A ;
+}
+
+.navigation{
+    
+   
+    &__content{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        @media (max-width: 865px) {
+            display: flex;
+            flex-direction: column;
+        }
+        
+    
+
+        &-list{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            @media (max-width: 548px) {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                
+            }
+
+            &-link{
+
+                font-family: 'Mulish';
+                font-weight: 700;
+                font-size: 16px;
+                color: white;
+                
+                margin-top: 25px;
+                margin-bottom: 25px;
+
+            
+
+            }
+
+        }
+
+    }
+
+}
+
